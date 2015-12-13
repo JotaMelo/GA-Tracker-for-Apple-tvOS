@@ -6,7 +6,7 @@ Objective-C version by Jota Melo
 Google Analytics tracker for Apple tvOS provides an easy integration of Google Analytics’ measurement protocol for Apple TV. This library enables sending screenviews, events, exceptions and any other hit type to Google Analytics. Implementation of the library and sending an initial hit to Google Analytics takes only a few minutes.
 
 ## Implementation
-All code for this tracker is located inside a single file “GATracker.swift”. The first step of the implementation is associating this library file with your application project.
+All code for this tracker is located in the "GATracker" class. The first step of the implementation is adding the .h and .m files to your project.
 
 This library creates an object (a tracker) that holds persistent values such as client id, property id, and more. The tracker is created with the following command:
 ```
